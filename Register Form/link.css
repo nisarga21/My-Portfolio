@@ -1,0 +1,73 @@
+nav{
+    line-height: 60px;
+    /* background-color:rgba(2, 2, 2,0.5); */
+    background:url(6.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+#img1{
+    /* margin: 10px; */
+    padding-left: 50px;
+}
+#ul1{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+#ul1 li{
+    /* float: right; */
+    display: inline-flex;
+    margin: 10px;
+    padding-left: 400px;
+    color: white;
+    text-decoration: none;
+}
+#ul1 li:hover{
+    color:tomato;
+    text-decoration: none;
+}
+body{
+    /* background-image: linear-gradient(to right,red,pink ); */
+    background: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#tab1{
+    border: 1px solid black;
+    width: 40%;
+    padding-left: 20px;
+    border-radius: 10px;
+    /* background:url(4.jpg); */
+    background-color: rgba(165, 153, 153, 0.2);
+}
+#ip1,#ip2,#ip6,#ip7,#ip8,#ip9{
+width: 46%;
+}
+#ip3,#ip4,#ip5,#ip10,#ip11{
+    width:95%
+}
+#ip12{
+    margin-left: 250px;
+}
+i{
+    color:blue;
+    text-decoration: underline;
+}
+#tab2 ul{
+ list-style-type: none;
+   
+}
+#tab2 td{
+    text-align: center;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 30px;
+    text-align: center;
+    background:url(9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#tab2 td:hover,#id2:hover,#id3:hover,#id4:hover{
+    transform: scale(1.1);
+}
